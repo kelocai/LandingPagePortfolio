@@ -15,11 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
     background-color: black;
     height: 100%;
+    margin-left: 50px;
 }
 
 .nav-list {

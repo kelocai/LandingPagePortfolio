@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background: rgb(70, 149, 31);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: black;
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+.nav-link {
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(2, 0, 128);
+}

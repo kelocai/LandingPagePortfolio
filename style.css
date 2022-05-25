@@ -7,15 +7,15 @@
 
 body {
     font-family: sans-serif;
+    background: linear-gradient(to bottom, rgb(4, 150, 4), black);
 }
 
 .header {
-    background: rgb(70, 149, 31);
+    background: green;
     height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .logo {
@@ -38,4 +38,46 @@ body {
 .nav-link:hover {
     text-decoration: underline;
     color: rgb(2, 0, 128);
+}
+
+.cuerpo {
+    /* background: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin: 100px;
+}
+
+.texto {
+    /* background: red; */
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    max-height: 20%;
+    max-width: 40%;
+}
+
+.image {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }

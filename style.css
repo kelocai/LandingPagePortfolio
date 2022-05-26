@@ -102,6 +102,22 @@ body {
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
 }
 
-@media only screen and (max-width: 800px) and (min-width: 600px) {
-    
+@media screen and (max-width: 980px) {
+    .header {
+        width: %;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .cuerpo {
+        width: 68%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
 }
